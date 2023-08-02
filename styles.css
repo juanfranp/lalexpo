@@ -1,0 +1,245 @@
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  overflow-x: hidden;
+}
+.bg-primary {
+  background-color: #001460 !important;
+}
+.bg-secundary {
+  background-color: #e7233c;
+}
+.bg-blanco {
+  background-color: #ffffff;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.color-primary {
+  color: #001460;
+}
+.color-secundary {
+  color: #e7233c;
+}
+.color-blanco {
+  color: #ffffff;
+}
+.color-grey {
+  color: #868686;
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.titulo-big {
+  font-family: 'Druk Wide Cyr', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 76px;
+}
+.titulo {
+  font-family: 'Druk Wide Cyr', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 52px;
+}
+.titulo-small {
+  font-family: 'Druk Wide Cyr', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+.navbar-brand img {
+  width: 300px;
+}
+.nav-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.nav-item:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+.nav-link {
+  font-size: 17px;
+  color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-nav .nav-link.active {
+  color: #e7233c;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #e7233c;
+}
+button {
+  border-radius: 50px;
+  margin-right: 15px;
+  font-size: 20px;
+  padding: 12px 50px;
+}
+.navbar-text button {
+  font-size: 17px;
+  border-color: #e7233c;
+  padding: 5px 30px;
+}
+.social-icons a {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.cta-item:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+.speaker-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 0px 15px;
+}
+.speaker-card img {
+  opacity: 0.5;
+}
+.speakers-stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.speakers-stars img {
+  width: 20px;
+  margin: 2px;
+}
+.speakers-content {
+  margin-bottom: 20px;
+}
+.speakers-content .cargo {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.speakers-content .nombre {
+  font-size: 30px;
+  font-weight: bold;
+}
+.speakers-content .empresa {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.slider-navigation {
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+.prev-arrow img,
+.next-arrow img {
+  width: 45px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.conten-documental {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.img-noticia-principal {
+  height: 328px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+}
+.img-noticia-principal img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.img-noticia {
+  height: 150px;
+  max-width: 225px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.img-noticia img {
+  border-radius: 10px;
+  height: 100%;
+}
+.date-cat {
+  font-size: 16px;
+}
+.content-noticias .titulo-small {
+  font-size: 15px;
+}
+.content-noticias .text-noticia {
+  font-size: 17px;
+}
+.separator-footer {
+  height: 20px;
+  background: rgb(0, 20, 96);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 96, 1) 0%,
+    rgba(231, 35, 60, 1) 100%
+  );
+}
+#banner-principal {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#date-cta {
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding: 30px;
+}
+#speakers {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#speakers p {
+  font-size: 27px;
+}
+#speaker-slider {
+  padding-bottom: 100px;
+}
+#noticias {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#logos {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer {
+  padding-top: 50px;
+  font-size: 18px;
+}
+.footer-titulo {
+  font-size: 23px;
+}
+.form-control {
+  border-radius: 0px;
+}
+.btn-send {
+  border-radius: 0px;
+}
+.btn-send:hover {
+  background-color: #e7233c;
+}
+.footer-b {
+  background-color: #000547;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 300;
+  padding: 25px;
+}
+.custom-toggler.navbar-toggler {
+  border-color: transparent;
+  margin: 0px;
+}
+.custom-toggler.navbar-toggler:focus {
+  box-shadow: none;
+}

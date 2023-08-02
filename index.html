@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lalexpo 2024</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg fixed-topp border-bottom bg-primary"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/img/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Documental</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lalexpo VIP Curazao</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Workshops</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <button class="bg-secundary color-blanco">Iniciar sesión</button>
+          </span>
+          <div class="social-icons">
+            <a href="">
+              <img width="35" src="assets/ico/facebook.png" alt="" />
+            </a>
+            <a href="">
+              <img width="35" src="assets/ico/twitter.png" alt="" />
+            </a>
+            <a href="">
+              <img width="35" src="assets/ico/instagram.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="banner-principal"
+      style="
+        background-image: url(assets/img/bg-banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <div class="row container mx-auto">
+        <div class="col-12 text-center mb-3">
+          <div class="color-blanco text-uppercase pb-4">
+            <b>Lalexpo 2024</b>
+          </div>
+          <h1 class="titulo-big color-blanco">
+            <span class="color-secundary">El evento más grande</span> de la
+            industria en Latinoamérica
+          </h1>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end"
+        >
+          <button class="bg-blanco border color-primary text-uppercase">
+            <b>Registrate ahora</b>
+          </button>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start mt-5 mt-md-0"
+        >
+          <button class="bg-transparent border color-blanco text-uppercase">
+            Agendar evento
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="date-cta"
+      class="bg-body-tertiary d-flex justify-content-center bg-primary color-blanco"
+    >
+      <div class="row align-items-center">
+        <div
+          class="col-12 col-md-6 col-lg-3 justify-content-center cta-item ps-5"
+        >
+          ¿Donde y cuando <span class="color-secundary">lalexpo 2024?</span>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center cta-item ps-5"
+        >
+          <img
+            width="50"
+            height="60"
+            class="me-4"
+            src="assets/ico/01.png"
+            alt=""
+          />
+          <div>Lunes,08 <span style="font-weight: 300">Febrero</span></div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center cta-item ps-5"
+        >
+          <img
+            width="50"
+            height="60"
+            class="me-4"
+            src="assets/ico/02.png"
+            alt=""
+          />
+          <div>
+            Hotel Sonesta <span style="font-weight: 300">Cali, Colombia</span>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-3 d-flex justify-content-center cta-item"
+        >
+          <span>62</span>: <span>32</span>:
+          <span>20</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="speakers">
+      <div class="row">
+        <div class="col text-center color-primary">
+          <h2 class="titulo pb-3">
+            Speakers <span class="color-secundary">invitados</span>
+          </h2>
+          <p>
+            Lalesxpo es la reunion de las celebridades y líderes más importantes
+            <br />
+            en la industria para adultos en Latinoamérica
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="speaker-slider">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 text-center">
+          <div class="slider-navigation">
+            <a class="prev-arrow"><img src="assets/ico/04.png" alt="" /></a>
+            <a class="next-arrow"><img src="assets/ico/05.png" alt="" /></a>
+          </div>
+
+          <div class="one-time">
+            <div class="speaker-item">
+              <div
+                class="speaker-card"
+                style="
+                  background-image: url(assets/speakers/speaker_01.png);
+                  background-size: cover;
+                  height: 368px;
+                "
+              >
+                <div class="speakers-stars">
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                </div>
+                <div class="speakers-content color-blanco">
+                  <div class="color-secundary cargo">webcamer</div>
+                  <div class="nombre">Candy Love</div>
+                  <div class="empresa">bonga Cams</div>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-item">
+              <div
+                class="speaker-card"
+                style="
+                  background-image: url(assets/speakers/speaker_02.png);
+                  background-size: cover;
+                  height: 368px;
+                "
+              >
+                <div class="speakers-stars">
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                </div>
+                <div class="speakers-content color-blanco">
+                  <div class="color-secundary cargo">webcamer</div>
+                  <div class="nombre">Kim Sweet</div>
+                  <div class="empresa">Camsoda</div>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-item">
+              <div
+                class="speaker-card"
+                style="
+                  background-image: url(assets/speakers/speaker_03.png);
+                  background-size: cover;
+                  height: 368px;
+                "
+              >
+                <div class="speakers-stars">
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                </div>
+                <div class="speakers-content color-blanco">
+                  <div class="color-secundary cargo">webcamer</div>
+                  <div class="nombre">Sara Rose</div>
+                  <div class="empresa">bonga Cams</div>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-item">
+              <div
+                class="speaker-card"
+                style="
+                  background-image: url(assets/speakers/speaker_04.png);
+                  background-size: cover;
+                  height: 368px;
+                "
+              >
+                <div class="speakers-stars">
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                </div>
+                <div class="speakers-content color-blanco">
+                  <div class="color-secundary cargo">webcamer</div>
+                  <div class="nombre">Emma Cam</div>
+                  <div class="empresa">bonga Cams</div>
+                </div>
+              </div>
+            </div>
+            <div class="speaker-item">
+              <div
+                class="speaker-card"
+                style="
+                  background-image: url(assets/speakers/speaker_03.png);
+                  background-size: cover;
+                  height: 368px;
+                "
+              >
+                <div class="speakers-stars">
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                  <img src="assets/ico/03.png" alt="" />
+                </div>
+                <div class="speakers-content color-blanco">
+                  <div class="color-secundary cargo">webcamer</div>
+                  <div class="nombre">Sara Rose</div>
+                  <div class="empresa">bonga Cams</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="py-5 py-lg-0"
+      style="
+        background-image: url(assets/img/bg-hands.png);
+        background-size: cover;
+      "
+    >
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-lg-4 text-center text-lg-start">
+          <div class="titulo-small color-primary">
+            Vive una experiencia única
+          </div>
+          <div class="color-blanco">Ingresando a nuestro tour virtual.</div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3 my-5 my-lg-0">
+          <img class="img-fluid" src="assets/img/hands.png" alt="" />
+        </div>
+        <div
+          class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center"
+        >
+          <button class="text-uppercase border bg-transparent color-blanco">
+            <b>Hacer tour virtual</b>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary">
+      <div class="row justify-content-end">
+        <div class="col-12 col-lg-5 conten-documental">
+          <div class="titulo color-blanco">Documental</div>
+          <div class="titulo-small color-secundary pt-5">
+            Lalexpo: ¿Bendición o Blasfemia?
+          </div>
+          <div class="color-blanco pt-4 pb-5">
+            Mira ahora el documental completo acerca de toda la organización y
+            contenido del evento.
+          </div>
+          <button class="border bg-transparent color-blanco text-uppercase">
+            <b>registrate ahora</b>
+          </button>
+        </div>
+        <div class="col-12 col-lg-6 video-content">
+          <div
+            style="
+              background-image: url(assets/img/video.png);
+              background-size: cover;
+              background-repeat: no-repeat;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              opacity: 0.5;
+              height: 100%;
+              cursor: pointer;
+            "
+          >
+            <img src="assets/ico/06.png" alt="" />
+            <p class="color-blanco pt-3">VER VIDEO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="noticias">
+      <div class="row">
+        <div class="col text-center color-primary">
+          <h2 class="titulo pb-3">
+            Noticias de la <span class="color-secundary">industria</span>
+          </h2>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-5">
+        <div class="col-12 col-lg-5 pb-5 pb-lg-0">
+          <div class="img-noticia-principal">
+            <img src="assets/img/noticia_01.jpg" alt="" />
+          </div>
+          <div class="content-noticias-principal">
+            <div class="titulo-small color-secundary pt-4">
+              Lalexpo: ¿Bendición o Blasfemia?
+            </div>
+            <div class="date-cat color-grey py-2">
+              05 de Agosto | Industria | Por: Fernando Gonzales
+            </div>
+            <div>
+              Mira ahora el documental completo acerca de toda la organización y
+              contenido del evento...
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <div class="content-noticias">
+            <div class="row">
+              <div class="col-4 col-md-4">
+                <div class="img-noticia">
+                  <img src="assets/img/noticia_02.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center">
+                <div class="titulo-small color-secundary">
+                  Industria webcam factura US$600...
+                </div>
+                <div class="date-cat color-grey py-2">
+                  05 de Agosto | Industria | Por: Fernando Gonzales
+                </div>
+                <div class="text-noticia d-none d-md-block">
+                  Mira ahora el documental completo acerca de toda la
+                  organización y contenido del evento...
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-noticias pt-4">
+            <div class="row">
+              <div class="col-4">
+                <div class="img-noticia">
+                  <img src="assets/img/noticia_03.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center">
+                <div class="titulo-small color-secundary">
+                  Modelos webcam pagarían segu...
+                </div>
+                <div class="date-cat color-grey py-2">
+                  05 de Agosto | Industria | Por: Fernando Gonzales
+                </div>
+                <div class="text-noticia d-none d-md-block">
+                  En Bucaramanga, en medio de la socialización y diálogo con
+                  gremios, líderes sociales y em...
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-noticias pt-4">
+            <div class="row">
+              <div class="col-4">
+                <div class="img-noticia">
+                  <img src="assets/img/noticia_04.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-8 d-flex flex-column justify-content-center">
+                <div class="titulo-small color-secundary">
+                  Polémica en Medellín por congreso
+                </div>
+                <div class="date-cat color-grey py-2">
+                  05 de Agosto | Industria | Por: Fernando Gonzales
+                </div>
+                <div class="text-noticia d-none d-md-block">
+                  La organización respondió a las críticas de las personas que
+                  promueven la ‘firmatón’ contra...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="logos"
+      style="
+        background-image: url(assets/img/bg-logos.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="row justify-content-center">
+        <div class="col-12 text-center color-blanco">
+          <h2 class="titulo pb-3">Cubrimiento en medios</h2>
+        </div>
+        <div class="col-9 text-center color-blanco">
+          <p>
+            LALEXPO es el evento más grande de la industria para adultos a nivel
+            mundial, hemos sido citados mencionados y publicados en los
+            siguientes medios:
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+          <div
+            class="row row-cols-3 row-cols-md-5 row-cols-lg-6 px-5 pt-5 justify-content-center"
+          >
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/01.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/02.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/03.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/04.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/05.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/06.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/07.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/08.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/09.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/10.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/11.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/12.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/13.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/14.png" alt="" />
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="assets/logos/15.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary">
+      <div class="row justify-content-end pb-2 pb-md-5">
+        <div class="col-11">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-4">
+              <a class="navbar-brand" href="#"
+                ><img width="300" src="assets/img/logo.png" alt=""
+              /></a>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="separator-footer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pb-5">
+        <div class="col-10">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="footer-titulo color-secundary pb-3">Síguenos</div>
+              <div class="color-blanco">
+                Ingresa a la comunidad más <br />grande de la industría.
+              </div>
+              <div class="social-icons pt-5">
+                <a href="#">
+                  <img width="35" src="assets/ico/facebook.png" alt="" />
+                </a>
+                <a href="#">
+                  <img width="35" src="assets/ico/twitter.png" alt="" />
+                </a>
+                <a href="#">
+                  <img width="35" src="assets/ico/instagram.png" alt="" />
+                </a>
+                <a href="#">
+                  <img width="35" src="assets/ico/whatsapp.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="footer-titulo color-secundary pb-3">Contáctanos</div>
+              <div class="color-blanco">
+                (602) 123 4567 <br />312 345 67890 <br />Av 12 # 46 -78a Sede
+                Principal <br /><br />
+                Calí, Colombia
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="footer-titulo color-secundary pb-3">Suscríbete</div>
+              <div class="color-blanco">
+                ¿Quieres saber las últimas noticias<br />
+                acerca de lalexpo 2024? Escríbenos!
+              </div>
+              <form class="row g-0 pt-5">
+                <div class="col-8 col-lg-10">
+                  <label for="inputPassword2" class="visually-hidden"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control rounded-start"
+                    id="inputPassword2"
+                    placeholder="Ingresa tu correo electrónico..."
+                  />
+                </div>
+                <div class="col-auto">
+                  <button
+                    type="submit"
+                    class="btn btn-send bg-secundary rounded-end"
+                  >
+                    <img
+                      width="20"
+                      class="img-fluid"
+                      src="assets/ico/send.png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-b">
+        <div class="row">
+          <div class="col">
+            ©Lalexpo 2014 es propiedad de LALEXPO International.<br />
+            Todos los derechos reservados. Prohibida la reproducción total o
+            parcial
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
