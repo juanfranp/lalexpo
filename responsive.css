@@ -1,5 +1,14 @@
+@media (max-width: 1600px) {
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .navbar-brand img {
+    width: 255px;
+  }
+}
 @media (max-width: 900px) {
-  section {
+  .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
   }
