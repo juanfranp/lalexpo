@@ -7,7 +7,62 @@
     width: 255px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 992px) {
+  #menuBurgerClose {
+    display: flex;
+    margin-left: auto;
+    transition: all 0.2s ease-out;
+    background-color: #fff;
+    filter: none;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 12px;
+    margin-bottom: 50px;
+    margin-right: 3px;
+  }
+  #navbarText {
+    height: 103vh;
+    position: absolute;
+    top: 0;
+    background-color: #00075cf2;
+    width: 100%;
+    left: 0px;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 25px;
+    padding-top: 24px;
+    transition: all 0.1s ease-in;
+  }
+  .menu-num {
+    color: #86b7fe;
+    position: absolute;
+    left: 2px;
+    font-size: 10px;
+    top: 20px;
+  }
+  .social-icons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: end;
+  }
+  .info-blocks {
+    color: #fff;
+    font-size: 14px;
+  }
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar-text button {
+    font-size: 8px;
+    padding: 5px 12px;
+    letter-spacing: 1.8px;
+    margin: 0px;
+  }
+  .nav-link {
+    font-size: 24px;
+    font-weight: 500;
+  }
   section {
     padding-left: 20px;
     padding-right: 20px;
@@ -19,10 +74,11 @@
   .nav-item {
     padding-top: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #fff;
+    position: relative;
   }
   .nav-item:not(:last-child) {
     border-right: 0px;
+    padding-bottom: 0px;
   }
   .navbar-text {
     margin-top: 20px;
@@ -52,10 +108,7 @@
 }
 @media (max-width: 767px) {
   .navbar-brand img {
-    width: 200px;
-  }
-  #banner-principal {
-    padding-top: 80px;
+    width: 180px;
   }
   .titulo-big {
     font-size: 32px;

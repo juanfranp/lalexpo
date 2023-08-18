@@ -18,15 +18,26 @@
     <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/34beaa5fa5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav
-      class="navbar navbar-dark navbar-expand-lg fixed-topp border-bottom bg-primary"
+      class="navbar navbar-dark navbar-expand-lg fixed-top border-bottom bg-primary"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="assets/img/logo.png" alt=""
         /></a>
+        <span class="navbar-text">
+          <button
+            class="bg-secundary color-blanco d-block d-sm-block d-md-block d-lg-none"
+          >
+            Iniciar sesión
+          </button>
+        </span>
         <button
           class="navbar-toggler custom-toggler"
           type="button"
@@ -36,26 +47,75 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span id="menuBurger"><i class="fas fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
+          <button
+            id="menuBurgerClose"
+            class="btn-close btn-close-white d-block d-sm-block d-md-block d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></button>
+          <div
+            class="titulo-small color-blanco menu-titulo d-block d-sm-block d-md-block d-lg-none"
+          >
+            Menú <span class="color-secundary">principal</span>
+          </div>
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <span class="menu-num d-block d-sm-block d-md-block d-lg-none"
+                >01</span
+              >
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
+              <span class="menu-num d-block d-sm-block d-md-block d-lg-none"
+                >02</span
+              >
               <a class="nav-link" href="#">Documental</a>
             </li>
             <li class="nav-item">
+              <span class="menu-num d-block d-sm-block d-md-block d-lg-none"
+                >03</span
+              >
               <a class="nav-link" href="#">Lalexpo VIP Curazao</a>
             </li>
             <li class="nav-item">
+              <span class="menu-num d-block d-sm-block d-md-block d-lg-none"
+                >04</span
+              >
               <a class="nav-link" href="#">Workshops</a>
+            </li>
+            <li class="nav-item d-block d-sm-block d-md-block d-lg-none">
+              <span class="menu-num d-block d-sm-block d-md-block d-lg-none"
+                >05</span
+              >
+              <a class="nav-link" href="#">Contáctanos</a>
             </li>
           </ul>
           <span class="navbar-text">
-            <button class="bg-secundary color-blanco">Iniciar sesión</button>
+            <button
+              class="bg-secundary color-blanco d-none d-sm-none d-md-none d-lg-block"
+            >
+              Iniciar sesión
+            </button>
           </span>
+          <div class="info-blocks d-block d-sm-block d-md-block d-lg-none">
+            <div class="mb-2"><b>Dirección</b></div>
+            <div>
+              Av 12 # 46-78a Sede Principal <br />
+              Cali, Colombia
+            </div>
+            <div class="mb-2 mt-4"><b>Contáctanos</b></div>
+            <div>
+              info@lalexpo.com<br />
+              Tel: 312 345 67890
+            </div>
+          </div>
           <div class="social-icons">
             <a href="">
               <img width="35" src="assets/ico/facebook.png" alt="" />
@@ -182,7 +242,114 @@
             <a class="next-arrow"><img src="assets/ico/05.png" alt="" /></a>
           </div>
 
-          <div class="one-time">
+          <div class="row">
+            <div class="col-12 col-md-3 col-lg-3">
+              <div class="speaker-item">
+                <div
+                  class="speaker-card"
+                  style="
+                    background-image: url(assets/speakers/speaker_01.png);
+                    background-size: cover;
+                    height: 368px;
+                  "
+                >
+                  <div class="speakers-stars">
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                  </div>
+                  <div class="speakers-content color-blanco">
+                    <div class="color-secundary cargo">webcamer</div>
+                    <div class="nombre">Candy Love</div>
+                    <div class="empresa">bonga Cams</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3">
+              <div class="speaker-item">
+                <div
+                  class="speaker-card"
+                  style="
+                    background-image: url(assets/speakers/speaker_02.png);
+                    background-size: cover;
+                    height: 368px;
+                  "
+                >
+                  <div class="speakers-stars">
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                  </div>
+                  <div class="speakers-content color-blanco">
+                    <div class="color-secundary cargo">webcamer</div>
+                    <div class="nombre">Kim Sweet</div>
+                    <div class="empresa">Camsoda</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3">
+              <div class="speaker-item">
+                <div
+                  class="speaker-card"
+                  style="
+                    background-image: url(assets/speakers/speaker_03.png);
+                    background-size: cover;
+                    height: 368px;
+                  "
+                >
+                  <div class="speakers-stars">
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                  </div>
+                  <div class="speakers-content color-blanco">
+                    <div class="color-secundary cargo">webcamer</div>
+                    <div class="nombre">Sara Rose</div>
+                    <div class="empresa">bonga Cams</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3">
+              <div class="speaker-item">
+                <div
+                  class="speaker-card"
+                  style="
+                    background-image: url(assets/speakers/speaker_04.png);
+                    background-size: cover;
+                    height: 368px;
+                  "
+                >
+                  <div class="speakers-stars">
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                    <img src="assets/ico/03.png" alt="" />
+                  </div>
+                  <div class="speakers-content color-blanco">
+                    <div class="color-secundary cargo">webcamer</div>
+                    <div class="nombre">Emma Cam</div>
+                    <div class="empresa">bonga Cams</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  <div class="one-time">
+
             <div class="speaker-item">
               <div
                 class="speaker-card"
@@ -206,6 +373,7 @@
                 </div>
               </div>
             </div>
+
             <div class="speaker-item">
               <div
                 class="speaker-card"
@@ -229,6 +397,7 @@
                 </div>
               </div>
             </div>
+
             <div class="speaker-item">
               <div
                 class="speaker-card"
@@ -252,6 +421,7 @@
                 </div>
               </div>
             </div>
+
             <div class="speaker-item">
               <div
                 class="speaker-card"
@@ -275,6 +445,7 @@
                 </div>
               </div>
             </div>
+
             <div class="speaker-item">
               <div
                 class="speaker-card"
@@ -298,7 +469,8 @@
                 </div>
               </div>
             </div>
-          </div>
+
+          </div> -->
         </div>
       </div>
     </section>

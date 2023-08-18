@@ -3,6 +3,17 @@ body {
   font-size: 23px;
   overflow-x: hidden;
 }
+#menuBurger {
+  background-color: #fff;
+  color: #e7233c;
+  border-radius: 30px;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 7px 7px 7px 9px;
+}
+
 .container-fluid {
   padding-left: 80px;
   padding-right: 80px;
@@ -49,6 +60,10 @@ body {
   font-family: 'Druk Wide Cyr', Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 25px;
+}
+.menu-titulo {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 .navbar-brand img {
   width: 300px;
