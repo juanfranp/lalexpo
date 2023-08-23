@@ -13,6 +13,29 @@ body {
   font-size: 20px;
   padding: 7px 7px 7px 9px;
 }
+.time {
+  color: #e7233c;
+  display: flex;
+  align-items: baseline;
+}
+.time span {
+  padding: 0px 10px;
+}
+#days,
+#minutes,
+#seconds {
+  display: inline-block;
+  height: 73px;
+  width: 72px;
+  background-color: #fff;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+}
+#hours {
+  display: none;
+}
 .pe-100 {
   padding-right: 100px;
 }
@@ -295,6 +318,12 @@ input {
   border-radius: 0.975rem !important;
 }
 
+footer input {
+  border: 0px !important;
+  height: auto;
+  border-radius: 0px !important;
+}
+
 textarea {
   border: 1px solid #e7233c !important;
   border-radius: 0.975rem !important;
@@ -348,6 +377,7 @@ textarea {
 }
 .tour-text {
   font-family: 'Druk Wide Cyr', Arial, Helvetica, sans-serif;
+  color: #d9ddff;
   font-weight: 500;
   font-size: 182px;
   line-height: 0;

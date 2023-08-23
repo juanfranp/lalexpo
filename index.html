@@ -218,8 +218,31 @@
             <div
               class="col-12 col-md-6 col-lg-3 d-flex justify-content-center cta-item"
             >
-              <span>62</span>: <span>32</span>:
-              <span>20</span>
+              <div class="time">
+                <div class="text-center">
+                  <div id="days"></div>
+                  <div class="text-center color-blanco fs-6 fw-normal pt-2">
+                    Días
+                  </div>
+                </div>
+                <span>:</span>
+                <div>
+                  <div id="hours"></div>
+                </div>
+                <div class="text-center">
+                  <div id="minutes"></div>
+                  <div class="text-center color-blanco fs-6 fw-normal pt-2">
+                    Minutos
+                  </div>
+                </div>
+                <span>:</span>
+                <div class="text-center">
+                  <div id="seconds"></div>
+                  <div class="text-center color-blanco fs-6 fw-normal pt-2">
+                    Segundos
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -897,5 +920,61 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script type="text/javascript" src="main.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        //===
+        // VARIABLES
+        //===
+        const DATE_TARGET = new Date('09/08/2023 0:01 AM')
+        // DOM for render
+        const SPAN_DAYS = document.querySelector('div#days')
+        const SPAN_HOURS = document.querySelector('div#hours')
+        const SPAN_MINUTES = document.querySelector('div#minutes')
+        const SPAN_SECONDS = document.querySelector('div#seconds')
+        // Milliseconds for the calculations
+        const MILLISECONDS_OF_A_SECOND = 1000
+        const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60
+        const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60
+        const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
+
+        //===
+        // FUNCTIONS
+        //===
+
+        /**
+         * Method that updates the countdown and the sample
+         */
+        function updateCountdown() {
+          // Calcs
+          const NOW = new Date()
+          const DURATION = DATE_TARGET - NOW
+          const REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY)
+          const REMAINING_HOURS = Math.floor(
+            (DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR
+          )
+          const REMAINING_MINUTES = Math.floor(
+            (DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE
+          )
+          const REMAINING_SECONDS = Math.floor(
+            (DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND
+          )
+          // Thanks Pablo Monteserín (https://pablomonteserin.com/cuenta-regresiva/)
+
+          // Render
+          SPAN_DAYS.textContent = REMAINING_DAYS
+          SPAN_HOURS.textContent = REMAINING_HOURS
+          SPAN_MINUTES.textContent = REMAINING_MINUTES
+          SPAN_SECONDS.textContent = REMAINING_SECONDS
+        }
+
+        //===
+        // INIT
+        //===
+        updateCountdown()
+        // Refresh every second
+        setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND)
+      })
+    </script>
   </body>
 </html>

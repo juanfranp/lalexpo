@@ -6,6 +6,21 @@
   .navbar-brand img {
     width: 255px;
   }
+  .text-medium {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1414px) {
+  .navbar-brand img {
+    width: 155px;
+  }
+  .navbar-text button {
+    font-size: 11px;
+    padding: 5px 14px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
 }
 @media (max-width: 992px) {
   .pe-100 {
@@ -108,6 +123,39 @@
   .video-content {
     height: 600px;
   }
+  .tour-text-small {
+    line-height: normal;
+  }
+  .tour-text {
+    font-size: 160px;
+  }
+  .tour-text-small {
+    font-size: 50px;
+    margin-top: -95px;
+    margin-bottom: 70px;
+  }
+  .text-medium {
+    font-size: 14px;
+  }
+  .border-md-0 {
+    border: 0px !important;
+    border-bottom: 2px;
+    border-bottom: 2px solid #dee2e6 !important;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .tel-text {
+    font-size: 17px;
+  }
+  .tel-text .titulo-small {
+    font-size: 17px;
+  }
+  .fa-mobile-alt {
+    font-size: 48px;
+  }
+  .social-footer {
+    justify-content: start;
+  }
 }
 @media (max-width: 767px) {
   .navbar-brand img {
@@ -116,7 +164,6 @@
   .titulo-big {
     font-size: 32px;
   }
-
   .cta-item:not(:last-child) {
     border-right: 0px;
     border-bottom: 1px solid #fff;
@@ -126,5 +173,22 @@
   }
   .footer-titulo {
     padding-top: 25px;
+  }
+  .tour-text {
+    font-size: 72px;
+  }
+  .tour-text-small {
+    font-size: 23px;
+    margin-top: -42px;
+    margin-bottom: 52px;
+  }
+  .social-workshop {
+    margin-top: 14px;
+  }
+  .city-banner {
+    font-size: 18px;
+  }
+  .titulo {
+    font-size: 30px;
   }
 }
