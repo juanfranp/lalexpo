@@ -55,6 +55,49 @@ body {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-grey {
+  background-color: #efefef;
+}
+.bg-g1 {
+  background: rgb(214, 35, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(214, 35, 60, 1) 0%,
+    rgba(214, 148, 156, 1) 100%
+  );
+}
+.bg-g2 {
+  background: rgb(0, 7, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 7, 92, 1) 0%,
+    rgba(134, 138, 177, 1) 100%
+  );
+}
+.bg-g3 {
+  background: rgb(179, 179, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(179, 179, 179, 1) 0%,
+    rgba(217, 217, 217, 1) 100%
+  );
+}
+.bg-g4 {
+  background: rgb(255, 215, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 215, 0, 1) 0%,
+    rgba(255, 235, 218, 1) 100%
+  );
+}
+.bg-g5 {
+  background: rgb(205, 127, 50);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 127, 50, 1) 0%,
+    rgba(242, 217, 197, 1) 100%
+  );
+}
 .color-primary {
   color: #00075c;
 }
