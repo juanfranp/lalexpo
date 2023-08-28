@@ -58,6 +58,9 @@ body {
 .bg-grey {
   background-color: #efefef;
 }
+.bg-slow {
+  background-color: #e7edf7;
+}
 .bg-g1 {
   background: rgb(214, 35, 60);
   background: linear-gradient(
@@ -147,6 +150,20 @@ body {
 }
 .text-spacing {
   letter-spacing: 1.8px;
+}
+.text-preguntas {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  border: 2px solid;
+  margin: 15px;
+  padding: 15px 8px;
+  border-radius: 30px;
+}
+.text-preguntas.active {
+  color: #fff;
+  background-color: #e7233c;
+  border-color: #e7233c;
 }
 .navbar-brand img {
   width: 300px;
@@ -385,6 +402,9 @@ textarea {
 .modal-login .modal-body {
   background-color: #fff;
   border-radius: 15px;
+}
+
+.modal-padding {
   padding: 50px 70px;
 }
 
@@ -434,4 +454,55 @@ textarea {
 }
 .fa-mobile-alt {
   font-size: 68px;
+}
+.accordion-item {
+  border: 0px;
+}
+.accordion-button {
+  background-color: #f3f6ff;
+  border: 2px solid #00075c;
+  border-radius: 0px !important;
+  color: #00075c;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: -2px;
+  padding: 30px;
+}
+
+.accordion-button:focus {
+  background-color: #f3f6ff;
+  border: 2px solid #00075c;
+  border-radius: 0px !important;
+  color: #00075c;
+  font-size: 32px;
+  font-weight: 500;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #f3f6ff;
+  border: 2px solid #00075c;
+}
+.accordion-body {
+  padding: 50px;
+  border-right: 1px solid #00075c;
+  border-left: 1px solid #00075c;
+  border-bottom: 1px solid #00075c;
+  color: #636363;
+}
+.btn-tickets {
+  position: absolute;
+  top: 20%;
+  right: 0px;
+  margin-right: 0px;
+  border-radius: 50px 0px 0px 50px;
+  border: 0px;
+  background-color: #e7233c;
+  padding: 15px 35px;
+  font-size: 22px;
+  line-height: 1.2;
+  align-items: center;
+}
+.btn-tickets img {
+  width: 70px;
+  height: 70px;
 }

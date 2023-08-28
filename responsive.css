@@ -156,6 +156,17 @@
   .social-footer {
     justify-content: start;
   }
+  .btn-tickets {
+    top: 15%;
+    padding: 10px 10px;
+  }
+  .btn-tickets img {
+    width: 40px;
+    height: 40px;
+  }
+  .tickets-text {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .navbar-brand img {
@@ -190,5 +201,22 @@
   }
   .titulo {
     font-size: 30px;
+  }
+  .text-preguntas {
+    margin: 10px 0px;
+  }
+  .btn-tickets {
+    top: 15%;
+    padding: 10px 10px;
+  }
+  .btn-tickets img {
+    width: 40px;
+    height: 40px;
+  }
+  .tickets-text {
+    display: none;
+  }
+  .modal-padding {
+    padding: 50px 30px;
   }
 }
