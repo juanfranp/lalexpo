@@ -586,3 +586,88 @@ th:nth-child(1) {
   border: 2px solid;
   padding: 8px 25px;
 }
+
+.img-galeria {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.img-galeria.imagen::after {
+  content: url(assets/ico/search.png);
+  background-color: rgba(0, 22, 97, 0.75);
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+}
+.img-galeria.imagen::before {
+  content: 'VER IMAGEN';
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+  padding-top: 135px;
+  z-index: 1;
+}
+.img-galeria.video::after {
+  content: url(assets/ico/video.png);
+  background-color: rgba(0, 22, 97, 0.75);
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+}
+.img-galeria.video::before {
+  content: 'VER VIDEO';
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+  padding-top: 135px;
+  z-index: 1;
+}
+.img-galeria:hover::after {
+  transform: translateY(0);
+}
+.img-galeria:hover::before {
+  transform: translateY(0);
+}
+.galeria-titulo {
+  font-size: 23px;
+  color: #00075c;
+  font-weight: 600;
+}
+.galeria-text {
+  font-size: 20px;
+  color: #00075c;
+  font-weight: 500;
+}
+.btn-galeria {
+  text-transform: uppercase;
+  color: #00075c;
+  background-color: transparent;
+  border: 2px solid #00075c;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 80px;
+  width: 100%;
+}

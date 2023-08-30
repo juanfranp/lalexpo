@@ -219,4 +219,8 @@
   .modal-padding {
     padding: 50px 30px;
   }
+  .btn-galeria {
+    font-size: 16px;
+    margin-top: 40px;
+  }
 }
