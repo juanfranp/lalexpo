@@ -506,3 +506,83 @@ textarea {
   width: 70px;
   height: 70px;
 }
+.btn-registro {
+  color: #00075c;
+  background-color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+  border: 2px solid #00075c;
+  height: 50px;
+  padding: 0px 50px;
+}
+.btn-registro:hover {
+  color: #fff;
+  font-weight: 600;
+  background-color: #00075c;
+  text-transform: uppercase;
+  margin: 0px;
+  border: 2px solid #00075c;
+  height: 50px;
+  padding: 0px 50px;
+}
+
+.form-registro select,
+.form-registro input {
+  border: 2px solid #00075c !important;
+  height: 50px;
+}
+th,
+td {
+  height: 93px;
+  vertical-align: middle;
+}
+th {
+  color: #00075c !important;
+}
+th:nth-child(1) {
+  text-align: center;
+}
+.cat-01 {
+  background-color: #00075c;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 30px;
+  border-radius: 30px;
+}
+.cat-02 {
+  background-color: #a2adf9;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 30px;
+  border-radius: 30px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: #f3f6ff;
+}
+.page-item:first-child .page-link {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.page-item:last-child .page-link {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.page-link {
+  color: #00075c;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid;
+  padding: 8px 25px;
+}
+.page-link:hover {
+  color: #00075c;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border: 2px solid;
+  padding: 8px 25px;
+}
