@@ -590,12 +590,16 @@ th:nth-child(1) {
 .img-galeria {
   width: 100%;
   height: 450px;
+  display: flex;
   margin: 0 auto;
   margin-top: 50px;
-  background-size: cover;
-  background-position: center;
   position: relative;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.img-galeria img {
+  height: 140%;
 }
 .img-galeria.imagen::after {
   content: url(assets/ico/search.png);
@@ -670,4 +674,31 @@ th:nth-child(1) {
   font-weight: 500;
   margin-top: 80px;
   width: 100%;
+}
+.lightbox-carousel .lightbox-caption em {
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+}
+.lightbox-carousel .text-preguntas {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  margin: 0 auto;
+}
+.lightbox-carousel .text-preguntas em {
+  font-style: normal;
+}
+button.btn-close {
+  top: -75px !important;
+  height: 25px;
+  width: 25px;
+  background-color: #e7233c !important;
+  color: #fff;
+  opacity: 1;
+  border-radius: 30px;
+}
+.ratio.ratio-16x9 {
+  background-color: transparent !important;
 }

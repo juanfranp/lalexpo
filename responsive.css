@@ -18,8 +18,17 @@
     font-size: 11px;
     padding: 5px 14px;
   }
+  .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .nav-link {
     font-size: 14px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1190px) {
+  #navbarText .social-icons {
+    display: none;
   }
 }
 @media (max-width: 992px) {
@@ -102,6 +111,7 @@
     margin-top: 20px;
     display: inline-block;
     margin-bottom: 20px;
+    margin-left: auto;
   }
   .titulo-big {
     font-size: 68px;
