@@ -23,9 +23,6 @@
     padding-left: 60px;
     padding-right: 60px;
   }
-  .navbar-brand img {
-    width: 255px;
-  }
   .text-medium {
     font-size: 15px;
   }
@@ -259,9 +256,6 @@
   }
 }
 @media (max-width: 767px) {
-  .navbar-brand img {
-    width: 180px;
-  }
   .titulo-big {
     font-size: 32px;
   }
