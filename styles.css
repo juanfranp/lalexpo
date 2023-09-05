@@ -28,13 +28,20 @@ body {
   height: 73px;
   width: 72px;
   background-color: #fff;
-  padding-top: 10px;
+  padding-top: 16px;
   text-align: center;
-  font-size: 40px;
+  font-size: 32px;
   border-radius: 10px;
 }
 #hours {
   display: none;
+}
+.ico-img-home {
+  height: 70px;
+  width: auto;
+}
+.timer-font {
+  font-size: 20px;
 }
 .pe-100 {
   padding-right: 100px;

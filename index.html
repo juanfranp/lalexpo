@@ -198,29 +198,17 @@
               >
             </div>
             <div
-              class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center cta-item ps-5"
+              class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center cta-item"
             >
-              <img
-                width="50"
-                height="60"
-                class="me-4"
-                src="assets/ico/01.png"
-                alt=""
-              />
+              <img class="me-4 ico-img-home" src="assets/ico/01.png" alt="" />
               <div>
                 Lunes,08 <br /><span style="font-weight: 300">Febrero</span>
               </div>
             </div>
             <div
-              class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center cta-item ps-5"
+              class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center cta-item"
             >
-              <img
-                width="50"
-                height="60"
-                class="me-4"
-                src="assets/ico/02.png"
-                alt=""
-              />
+              <img class="me-4 ico-img-home" src="assets/ico/02.png" alt="" />
               <div>
                 Hotel Sonesta <br /><span style="font-weight: 300"
                   >Cali, Colombia</span
@@ -233,7 +221,9 @@
               <div class="time">
                 <div class="text-center">
                   <div id="days"></div>
-                  <div class="text-center color-blanco fs-6 fw-normal pt-2">
+                  <div
+                    class="text-center color-blanco timer-font fw-normal pt-2"
+                  >
                     Días
                   </div>
                 </div>
@@ -243,14 +233,18 @@
                 </div>
                 <div class="text-center">
                   <div id="minutes"></div>
-                  <div class="text-center color-blanco fs-6 fw-normal pt-2">
+                  <div
+                    class="text-center color-blanco timer-font fw-normal pt-2"
+                  >
                     Minutos
                   </div>
                 </div>
                 <span>:</span>
                 <div class="text-center">
                   <div id="seconds"></div>
-                  <div class="text-center color-blanco fs-6 fw-normal pt-2">
+                  <div
+                    class="text-center color-blanco timer-font fw-normal pt-2"
+                  >
                     Segundos
                   </div>
                 </div>
@@ -1297,7 +1291,7 @@
         //===
         // VARIABLES
         //===
-        const DATE_TARGET = new Date('09/08/2023 0:01 AM')
+        const DATE_TARGET = new Date('09/08/2024 0:01 AM')
         // DOM for render
         const SPAN_DAYS = document.querySelector('div#days')
         const SPAN_HOURS = document.querySelector('div#hours')
