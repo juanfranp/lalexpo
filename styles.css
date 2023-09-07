@@ -158,6 +158,9 @@ body {
 .text-spacing {
   letter-spacing: 1.8px;
 }
+.subtitle {
+  font-size: 28px;
+}
 .text-preguntas {
   font-size: 20px;
   font-weight: 500;
@@ -166,6 +169,7 @@ body {
   margin: 15px;
   padding: 15px 8px;
   border-radius: 30px;
+  background-color: transparent;
 }
 .text-preguntas.active {
   color: #fff;
@@ -708,4 +712,66 @@ button.btn-close {
 }
 .ratio.ratio-16x9 {
   background-color: transparent !important;
+}
+.list-days li {
+  color: #00075c;
+  font-weight: 500;
+  font-size: 27px;
+}
+.list-days li:not(:last-child) {
+  margin-right: 50px;
+}
+.list-days li.active {
+  color: #e7233c;
+  font-weight: 500;
+  border-bottom: 5px solid #e7233c;
+  padding-bottom: 15px;
+}
+.separator-agenda {
+  border-width: 2px;
+}
+.agenda-item {
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 50px;
+}
+.agenda-time {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  background-color: #00075c;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 15px 15px 0px 0px;
+}
+.agenda-time.active {
+  background-color: #e7233c;
+}
+.agenda-content {
+  background-color: #f5f5f5;
+  border-radius: 0px 0px 15px 15px;
+}
+.agenda-logo {
+  height: 100%;
+  min-height: 200px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.agenda-titulo {
+  font-size: 28px;
+  font-weight: 900;
+}
+.agenda-texto {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.agenda-organizador {
+  font-size: 16px;
+  margin-top: 25px;
+  text-align: right;
+  padding-right: 10px;
 }
